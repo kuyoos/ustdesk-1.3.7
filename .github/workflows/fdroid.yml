@@ -34,7 +34,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           prerelease: true
-          replace_existing: true
           tag_name: "fdroid-version"
           files: |
             ./rustdesk-version.txt
